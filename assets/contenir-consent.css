@@ -1,0 +1,16 @@
+/*!
+ * contenir/consent: Manage preferences is as prominent as Accept all and
+ * Reject all. Sites restyle the banner through cookieconsent's --cc-*
+ * variables on #cc-main.
+ */
+#cc-main .cm__btn--secondary:not(.cm__btn--close) {
+    background: var(--cc-btn-primary-bg);
+    border-color: var(--cc-btn-primary-border-color);
+    color: var(--cc-btn-primary-color);
+}
+
+#cc-main .cm__btn--secondary:not(.cm__btn--close):hover {
+    background: var(--cc-btn-primary-hover-bg);
+    border-color: var(--cc-btn-primary-hover-border-color);
+    color: var(--cc-btn-primary-hover-color);
+}
