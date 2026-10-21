@@ -114,7 +114,8 @@ final readonly class Service
         return (
             str_starts_with($url, 'https://')
                 || str_starts_with($url, 'http://')
-                || str_starts_with($url, '/') && ! str_starts_with($url, '//')
+                || str_starts_with($url, '/')
+                && ! str_starts_with($url, '//')
         );
     }
 
