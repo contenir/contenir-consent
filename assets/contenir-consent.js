@@ -1,5 +1,5 @@
 /*!
- * contenir/consent: starts vanilla-cookieconsent with a site's settings,
+ * contenir/contenir-consent: starts vanilla-cookieconsent with a site's settings,
  * fires contenir:consent with the visitor's choice before any gated script
  * runs, and switches on the scripts each choice allows. BSD-3-Clause.
  */

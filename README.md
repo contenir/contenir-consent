@@ -1,4 +1,4 @@
-# contenir/consent
+# contenir/contenir-consent
 
 [![Continuous Integration](https://github.com/contenir/contenir-consent/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/contenir/contenir-consent/actions/workflows/continuous-integration.yml)
 [![codecov](https://codecov.io/gh/contenir/contenir-consent/graph/badge.svg)](https://codecov.io/gh/contenir/contenir-consent)
@@ -17,10 +17,18 @@ Framework-free cookie consent for [Contenir](https://github.com/contenir) sites:
 
 It has no framework dependency. Sites use it through an adapter, and the CMS through an add-on:
 
-- **Laminas MVC sites:** [contenir/consent-laminas-mvc](https://github.com/contenir/contenir-consent-laminas-mvc)
+- **Laminas MVC sites:** [contenir/contenir-consent-laminas-mvc](https://github.com/contenir/contenir-consent-laminas-mvc)
   adds the `consent()`, `consentScript()` and `consentPreferencesLink()` view helpers and serves the banner's files.
 - **The CMS:** the [Consent add-on](https://github.com/contenir-extension/consent) (`contenir-extension/consent`) holds
   the settings section and the "ask everyone again" operation.
+
+## Install
+
+```bash
+composer require contenir/contenir-consent
+```
+
+The package is named after its repository, as every Contenir library is. Before 0.1.0 it was `contenir/consent`.
 
 ## Requirements
 

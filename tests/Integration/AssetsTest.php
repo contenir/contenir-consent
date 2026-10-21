@@ -43,7 +43,10 @@ final class AssetsTest extends TestCase
             [0, true],
             [
                 strpos($script, "/*!\n* CookieConsent " . Assets::COOKIECONSENT),
-                strpos($script, needle: "/*!\n * contenir/consent") > strpos($script, needle: '.CookieConsent={});'),
+                strpos($script, needle: "/*!\n * contenir/contenir-consent") > strpos(
+                    $script,
+                    needle: '.CookieConsent={});',
+                ),
             ],
         );
     }
