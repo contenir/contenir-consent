@@ -6,6 +6,11 @@ adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased] - 2026-10-21
 
+### Changed
+
+- The package is renamed `contenir/contenir-consent`, after its repository, as every Contenir library is named.
+  It was `contenir/consent`, which was never tagged. The namespace (`Contenir\Consent\`) is unchanged.
+
 ### Added
 
 - The consent configuration read from a site's settings (`ConsentConfig`, `SettingKeys`): the regional mode, the

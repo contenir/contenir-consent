@@ -1,5 +1,5 @@
 {
-    "name": "contenir/consent",
+    "name": "contenir/contenir-consent",
     "description": "Framework-free cookie consent for Contenir: categories and their services, regional modes, Global Privacy Control, Google Consent Mode v2, script gating and the vanilla-cookieconsent banner's configuration.",
     "type": "library",
     "license": "BSD-3-Clause",

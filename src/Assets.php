@@ -30,7 +30,7 @@ final class Assets
      * stylesheet together. The package's tests fail when a file changes and
      * this doesn't.
      */
-    public const string HASH = 'f5cc18c7a725';
+    public const string HASH = '9387849d60c0';
 
     private const array SCRIPTS = ['cookieconsent.umd.js', 'contenir-consent.js'];
 
